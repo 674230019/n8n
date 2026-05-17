@@ -1,0 +1,24 @@
+providing-snarl-cobbler.ngrok-free.dev
+
+3DmsEM0F2pWE0PaCsm6VhP0H4fA_2AD6Kza9SqCyQJDCKQRsq
+
+uID
+U83a2c3f9edadc7aa4417c4721f2a2c16
+
+pcsk_4pZFDr_L7J5mqiRVNy21dCzYFowyPe7x8SktXQXYJWw8XtiAEpPFchRf9wc74FRoucodEo
+
+
+pcsk_58jjDH_5kWttXNsihqSoC6zNkUC97zDJjebBbAr3jAPGq4FnBdEzEm7YvpRXCaAYBf1wNk
+
+
+https://providing-snarl-cobbler.ngrok-free.dev/rest/oauth2-credential/callback
+
+Client ID
+322362530681-h07qp6ohk3th2dp6uiqu0u3vhm1dn0g1.apps.googleusercontent.com
+
+Client secret
+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
+
+
+lnmCH7buqBybV7hxhyp0iKU8K1hy3PCt
+
