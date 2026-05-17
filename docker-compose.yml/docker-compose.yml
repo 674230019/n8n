@@ -1,0 +1,23 @@
+name: aipack
+volumes:
+  n8n_data:
+
+services:
+  n8n:
+    image: n8nio/n8n
+    restart: always
+    ports:
+    - 5678:5678
+    environment:
+      N8N_BASIC_AUTH_ACTIVE: true
+      GENERIC_TIMEZONE: Asia/Bangkok
+      TZ: Asia/Bangkok
+      WEBHOOK_URL: https://providing-snarl-cobbler.ngrok-free.dev
+    volumes:
+      - n8n_data:/home/node/.n8n
+  ngrok:
+    image: ngrok/ngrok:latest
+    restart: always
+    environment:
+      NGROK_AUTHTOKEN: 3DmsEM0F2pWE0PaCsm6VhP0H4fA_2AD6Kza9SqCyQJDCKQRsq
+    command: http --url=providing-snarl-cobbler.ngrok-free.dev n8n:5678
